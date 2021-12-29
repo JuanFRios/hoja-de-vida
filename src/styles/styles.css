@@ -10,3 +10,7 @@
     @apply font-bold text-white uppercase text-xl tracking-tight;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
+
+.icono{
+   @apply text-white text-4xl
+}

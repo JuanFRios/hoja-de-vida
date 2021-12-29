@@ -2,9 +2,9 @@ import React from 'react'
 
 const TituloSeccion = ({ titulo }) => {
     return (
-        <div className="p-2 flex flex-col ">
+        <div className="flex flex-col ">
             <LineaPunteada />
-            <h1 className="uppercase text-white text-center">{titulo}</h1>
+            <h1 className="uppercase text-white text-center text-2xl font-thin">{titulo}</h1>
             <LineaPunteada />
         </div>
     );

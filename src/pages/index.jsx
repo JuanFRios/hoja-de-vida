@@ -1,12 +1,24 @@
 import React from 'react'
+import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
-import TituloSeccion from '../components/TituloSeccion';
+import SeccionCursos from '../components/SeccionCursos';
+import SeccionEducacion from '../components/SeccionEducacion';
+import SeccionExperiencia from '../components/SeccionExperiencia';
+import SeccionHabilidades from '../components/SeccionHabilidades';
+import SeccionProyectos from '../components/SeccionProyectos';
+import SeccionTecnologias from '../components/SeccionTecnologias';
 
 export const Index = () => {
     return (
-        <div className="pb-10">
+        <div className="pb-2">
             <Navbar/>
-            <TituloSeccion titulo="Educación"/>
+            <SeccionEducacion/>
+            <SeccionCursos/>
+            <SeccionExperiencia/>
+            <SeccionProyectos/>
+            <SeccionTecnologias/>     
+            <SeccionHabilidades/>       
+            <Footer/>
         </div>
     )
 }
