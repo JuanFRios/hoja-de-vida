@@ -10,7 +10,7 @@ const TituloSeccion = ({ titulo }) => {
     );
 }
 
-const LineaPunteada = () => {
+export const LineaPunteada = () => {
     return (
         <hr className="border-t-4 border-x-0 border-b-0 border-dotted border-Gris" />
     );

@@ -4,7 +4,7 @@ import TituloSeccion from './TituloSeccion'
 
 const SeccionHabilidades = () => {
     return (
-        <div className="p-2">
+        <div className="seccion">
             <TituloSeccion titulo="Habilidades"/>
             <ProgressBar titulo="Dedicación" porcentaje="90" />
             <ProgressBar titulo="Dialgo" porcentaje="90" />

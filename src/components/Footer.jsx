@@ -3,18 +3,18 @@ import RedSocial from './RedSocial'
 
 const Footer = () => {
     return (
-        <div className="bg-AzulMedio py-5 px-2 m-1 rounded-b-3xl flex justify-between">
+        <div className="footer">
             <div className="flex flex-col">
-                <RedSocial icono="github-square" usuario="jf_rios27" />
-                <RedSocial icono="linkedin" usuario="jf_rios27" />
+                <RedSocial icono="github-square" usuario="juanfrios" />
+                <RedSocial icono="linkedin" usuario="juanfrios27" />
             </div>
             <div className="flex flex-col">
-                <RedSocial icono="youtube-square" usuario="jf_rios27" />
-                <RedSocial icono="facebook-square" usuario="jf_rios27" />
+                <RedSocial icono="youtube-square" usuario="juanfer4811" />
+                <RedSocial icono="facebook-square" usuario="Juan Ríos" />
             </div>
             <div className="flex flex-col">
                 <RedSocial icono="instagram-square" usuario="jf_rios27" />
-                <RedSocial icono="twitter-square" usuario="jf_rios27" />
+                <RedSocial icono="twitter-square" usuario="@juanfrios27" />
             </div>
         </div>
     )

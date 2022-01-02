@@ -2,15 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-.navbar {
-    @apply h-24 rounded-full border-4 border-white
+.navbar-img {
+    @apply h-24 md:h-44 rounded-full border-8 border-white
 }
 
 .title {
-    @apply font-bold text-white uppercase text-xl tracking-tight;
+    @apply font-bold text-white uppercase text-xl tracking-tight md:text-4xl md:tracking-tighter lg:text-2xl;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
+.descripcion {
+    @apply text-justify text-white font-thin leading-none pt-2 md:text-center md:text-lg
+}
+
 .icono{
-   @apply text-white text-4xl
+   @apply text-white text-4xl md:text-6xl
+}
+
+.seccion {
+    @apply p-2 w-full md:text-center flex flex-col justify-around
+}
+
+.footer {
+    @apply bg-AzulMedio py-5 px-2 m-1 rounded-b-3xl flex justify-between md:justify-around md:rounded-none md:rounded-r-full
 }
