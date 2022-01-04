@@ -7,6 +7,8 @@ import SeccionExperiencia from '../components/SeccionExperiencia';
 import SeccionHabilidades from '../components/SeccionHabilidades';
 import SeccionProyectos from '../components/SeccionProyectos';
 import SeccionTecnologias from '../components/SeccionTecnologias';
+import iconosDerecha from './../assets/iconosDerecha.svg'
+import iconosIzquierda from './../assets/iconosIzquierda.svg'
 
 export const Index = () => {
     return (
@@ -31,7 +33,7 @@ export const Index = () => {
                 </div>
                 <Footer />
             </div>
-            <IndexDesktop/>
+            <IndexDesktop />
         </div>
 
     )
@@ -39,8 +41,20 @@ export const Index = () => {
 
 const IndexDesktop = () => {
     return (
-        <div>
-            <Navbar/>
+        <div className="hidden lg:flex">
+            <div className="flex flex-col w-full">
+                <img src={iconosIzquierda} alt="" />
+                <SeccionEducacion />
+                <SeccionCursos />
+                <SeccionTecnologias />
+            </div>
+            <Navbar />
+            <div className="flex flex-col w-full">
+                <img src={iconosDerecha} alt="" />
+                <SeccionExperiencia />
+                <SeccionProyectos />
+                <SeccionHabilidades />
+            </div>
         </div>
     )
 }

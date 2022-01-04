@@ -4,7 +4,7 @@ import TituloSeccion from './TituloSeccion'
 
 const SeccionCursos = () => {
     return (
-        <div className="seccion">
+        <div className="seccion lg:text-right">
             <TituloSeccion titulo="Cursos"/>
             <ItemSeccion titulo="Git y Github" subtitulo="platzi"/>
             <ItemSeccion titulo="angular avanzado" subtitulo="udemy"/>

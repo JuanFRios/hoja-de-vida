@@ -12,7 +12,7 @@ const TituloSeccion = ({ titulo }) => {
 
 export const LineaPunteada = () => {
     return (
-        <hr className="border-t-4 border-x-0 border-b-0 border-dotted border-Gris" />
+        <hr className="border-t-4 border-x-0 border-b-0 border-dotted border-Gris lg:m-2" />
     );
 }
 
