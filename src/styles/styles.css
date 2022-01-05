@@ -16,7 +16,7 @@
 }
 
 .icono{
-   @apply text-white text-4xl md:text-5xlxl lg:text-2xl
+   @apply text-white text-4xl md:text-5xl lg:text-2xl
 }
 
 .seccion {
