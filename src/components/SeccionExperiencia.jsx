@@ -1,6 +1,6 @@
 import React from 'react';
-import ItemSeccion from './ItemSeccion';
-import TituloSeccion from './TituloSeccion';
+import ItemSeccion from 'components/ItemSeccion';
+import TituloSeccion from 'components/TituloSeccion';
 
 const SeccionExperiencia = () => (
   <div className='seccion lg:text-left'>

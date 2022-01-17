@@ -1,7 +1,7 @@
-import "./styles/styles.css"
-import Index from "./pages/index"
-import PublicLayout from "./layouts/PublicLayout.jsx"
+import 'styles/styles.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Index from 'pages/index';
+import PublicLayout from 'layouts/PublicLayout';
 
 function App() {
   return (
