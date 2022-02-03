@@ -4,8 +4,16 @@ import RedSocial from 'components/RedSocial';
 const Footer = () => (
   <div className='footer'>
     <div className='flex flex-col lg:flex-row lg:justify-center lg:items-center'>
-      <RedSocial icono='github-square' usuario='juanfrios' />
-      <RedSocial icono='linkedin' usuario='juanfrios27' />
+      <RedSocial
+        icono='github-square'
+        usuario='juanfrios'
+        link='https://github.com/JuanFRios'
+      />
+      <RedSocial
+        icono='linkedin'
+        usuario='juanfrios27'
+        link='https://linkedin.com/in/juanfrios27'
+      />
     </div>
     <div className='flex flex-col lg:flex-row lg:justify-center lg:items-center'>
       <RedSocial icono='youtube-square' usuario='juanfer4811' />

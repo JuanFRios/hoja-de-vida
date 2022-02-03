@@ -63,7 +63,7 @@ const InformacionPersonal = () => (
       <ItemInformacion titulo='celular' texto='3117412979' />
     </div>
     <div className='flex justify-between pt-2 lg:flex-col'>
-      <ItemInformacion titulo='fecha de nacimiento' texto='28/11/2020' />
+      <ItemInformacion titulo='fecha de nacimiento' texto='28/11/1999' />
       <ItemInformacion titulo='experiencia' texto='1 año' />
     </div>
     <div className='flex justify-between pt-2 lg:flex-col'>
