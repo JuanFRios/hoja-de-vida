@@ -9,8 +9,8 @@ const SeccionCursos = () => (
     <ItemSeccion titulo='angular avanzado' subtitulo='udemy' />
     <ItemSeccion titulo='react' subtitulo='udemy' />
     <ItemSeccion titulo='react native' subtitulo='udemy' />
-    <ItemSeccion titulo='Introducción a mongo' subtitulo='coursera' />
-    <ItemSeccion titulo='Introducción a mongo' subtitulo='coursera' />
+    <ItemSeccion titulo='Introducción a Figma' subtitulo='platzi' />
+    <ItemSeccion titulo='Rendimiento en angular' subtitulo='platzi' />
     <ItemSeccion titulo='Introducción a mongo' subtitulo='coursera' />
   </div>
 );
