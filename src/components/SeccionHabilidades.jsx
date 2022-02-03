@@ -1,17 +1,15 @@
-import React from 'react'
-import ProgressBar from './ProgressBar'
-import TituloSeccion from './TituloSeccion'
+import React from 'react';
+import ProgressBar from 'components/ProgressBar';
+import TituloSeccion from 'components/TituloSeccion';
 
-const SeccionHabilidades = () => {
-    return (
-        <div className="seccion">
-            <TituloSeccion titulo="Habilidades"/>
-            <ProgressBar titulo="Dedicación" porcentaje="90" />
-            <ProgressBar titulo="Dialgo" porcentaje="90" />
-            <ProgressBar titulo="Sociable" porcentaje="90" />
-            <ProgressBar titulo="Inglés" porcentaje="40" />            
-        </div>
-    )
-}
+const SeccionHabilidades = () => (
+  <div className='seccion'>
+    <TituloSeccion titulo='Habilidades' />
+    <ProgressBar titulo='Dedicación' porcentaje='90' />
+    <ProgressBar titulo='Diálogo' porcentaje='90' />
+    <ProgressBar titulo='Sociable' porcentaje='90' />
+    <ProgressBar titulo='Inglés' porcentaje='40' />
+  </div>
+);
 
-export default SeccionHabilidades
+export default SeccionHabilidades;
