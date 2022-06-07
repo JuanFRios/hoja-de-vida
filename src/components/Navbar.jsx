@@ -69,7 +69,7 @@ const InformacionPersonal = () => (
     <div className='flex justify-between pt-2 lg:flex-col'>
       <ItemInformacion
         titulo='dirección'
-        texto='cRA 22 #20-104, cONCEPCIÓN aNTIOQUIA'
+        texto='CRA 44A # 74-48, MEDELLÍN ANTIOQUIA'
       />
     </div>
   </div>
