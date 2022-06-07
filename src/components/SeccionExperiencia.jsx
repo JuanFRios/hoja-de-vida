@@ -8,7 +8,7 @@ const SeccionExperiencia = () => (
     <ItemSeccion
       titulo='universidad de antioquia'
       subtitulo='auxiliar de programación'
-      texto='Noviembre 2020 - Enero 2021'
+      texto='Septiembre 2020 - Enero 2021'
     />
     <ItemSeccion
       titulo='universidad de antioquia'
