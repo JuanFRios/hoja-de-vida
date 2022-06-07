@@ -64,7 +64,7 @@ const InformacionPersonal = () => (
     </div>
     <div className='flex justify-between pt-2 lg:flex-col'>
       <ItemInformacion titulo='fecha de nacimiento' texto='28/11/1999' />
-      <ItemInformacion titulo='experiencia' texto='1 año' />
+      <ItemInformacion titulo='experiencia' texto='1,5 años' />
     </div>
     <div className='flex justify-between pt-2 lg:flex-col'>
       <ItemInformacion
